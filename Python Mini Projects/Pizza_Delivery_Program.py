@@ -23,7 +23,9 @@ elif size == "L":
     price+=3
   elif pepperoni == "N":
     price+=0;
-
+else :
+  print("You are type the wrong input")
+  
 extra_cheese = input("Do you want extra cheese? Y or N: ")
 if extra_cheese == "Y":
   price+=1
